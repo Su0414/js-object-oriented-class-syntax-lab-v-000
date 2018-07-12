@@ -9,7 +9,7 @@ constructor(name, homeState, training){
 veto = function () {
     return 'No, I must disagree'
   }
-  
+
 approve = function () {
     return 'You can do that!'
   }
@@ -26,4 +26,10 @@ releasePressStatement = function () {
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
 
+}
+
+class Ceo extends BoardMember{
+  constructor(hireEmployee){
+    this.hireEmployee = hireEmployee
+  }
 }
