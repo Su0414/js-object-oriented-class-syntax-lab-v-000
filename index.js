@@ -25,11 +25,17 @@ class BoardMember{
           return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
         }
 
+        sayHello(){
+          return "Hello !"
+        }
 }
 
 class Ceo extends BoardMember{
   constructor(name, homeState, training){
     super(name, homeState, training)
+  }
+  sayHello(){
+    super.sayHello()
   }
   hireEmployee(){
     return 'Welcome aboard!'
