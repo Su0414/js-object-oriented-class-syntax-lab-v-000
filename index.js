@@ -6,3 +6,9 @@ constructor(name, homeState, training){
   this.training = training
 }
 }
+
+class Ceo extends BoardMember{
+  constructor(hireEmployee){
+    this.hireEmployee = hireEmployee
+  }
+}
