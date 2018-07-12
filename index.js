@@ -9,7 +9,9 @@ constructor(name, homeState, training){
 
 class Ceo extends BoardMember{
   constructor(name, homeState, training){
-    super(name, homeState, training)    
+    super(name, homeState, training)
   }
-
+  hireEmployee = function () {
+    return 'Welcome aboard!';
+  }
 }
