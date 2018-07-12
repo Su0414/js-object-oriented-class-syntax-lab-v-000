@@ -6,6 +6,10 @@ constructor(name, homeState, training){
   this.training = training
 }
 
+veto = function () {
+    return 'No, I must disagree'
+  }
+
 }
 
 class Ceo extends BoardMember{
