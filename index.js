@@ -8,8 +8,11 @@ constructor(name, homeState, training){
 }
 
 class Ceo extends BoardMember{
-  constructor(name, homeState, training, hireEmployee){
+  constructor(name, homeState, training){
     super(name, homeState, training)
-    this.hireEmployee = hireEmployee
+
+  }
+  hireEmployee = function (){
+    return 'Welcome aboard!';
   }
 }
